@@ -1,11 +1,13 @@
-body{
-    height:700px
+body {
+    height: 550px;
 }
+
 .container {
     margin-top: 0;
     background-color: rgb(0, 0, 0);
     padding: 2;
 }
+
 h1 {
     text-align: center;
     margin-top: -1em;
@@ -14,6 +16,7 @@ h1 {
     color: rgb(78, 71, 71);
     font-size: 1em;
 }
+
 #centre {
     position: relative;
     align-items: center;
@@ -22,40 +25,42 @@ h1 {
     text-decoration: none;
     border-radius: 69px;
 }
+
 #centre button {
     width: 30rem;
     padding: 1em;
     border-radius: 15px;
-    margin-top: 1.5em;
-    margin-bottom: 1em;
+    margin-top: 1.7em;
+    margin-bottom: 1.2em;
     background-color: rgb(85, 83, 83);
     transition-property: color;
 }
+
 .head {
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 img {
     width: 10em;
     border-radius: 100px;
     height: 10em;
     margin-top: 2px;
 }
+
 #centre button a {
     text-decoration: none;
     font-size: 2rem;
     color: antiquewhite;
 }
-/* #centre button a:visited { */
-    /* color: rgb(71, 118, 248); */
-/* } */
 h3 {
     margin-top: 1px;
     color: antiquewhite;
     text-align: center;
 }
-.about{
+
+.about {
     border: 2px solid white;
     color: bisque;
     line-height: 0px;
@@ -63,6 +68,7 @@ h3 {
     padding: 15px;
     list-style: circle;
 }
+
 .foot {
     margin-top: 3px;
     color: rgb(226, 226, 225);
@@ -70,10 +76,12 @@ h3 {
     padding: 10px;
     border: 1px solid rgb(82, 72, 72);
 }
+
 .foot a {
     text-decoration: none;
     color: azure;
 }
+
 @media only screen and (max-width:684px) {
     #centre button {
         width: 20em;
@@ -85,20 +93,134 @@ h3 {
         text-align: center;
     }
 }
+
 @media only screen and (max-width:431px) {
-    #centre button{
+    #centre button {
         width: fit-content;
     }
+
     #centre button a img {
         display: none;
     }
 }
 
-
+@media only screen and (max-width:369px) {
+    h1 {
+        text-align: center;
+        margin-top: -1em;
+        align-items: center;
+        font-family: cursive;
+        color: rgb(78, 71, 71);
+        font-size: 0.9em;
+    }
 }
-@media only screen and (max-width:320px) {
-body {
+
+@media only screen and (max-width:353px) {
+    #centre button a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: antiquewhite;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: -1em;
+        align-items: center;
+        font-family: cursive;
+        color: rgb(78, 71, 71);
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width:297px) {
+    #centre {
+        position: relative;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        text-decoration: none;
+        border-radius: 69px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: -1em;
+        align-items: center;
+        font-family: cursive;
+        color: rgb(78, 71, 71);
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width:231px) {
+    h1 {
+        text-align: center;
+        margin-top: -1em;
+        align-items: center;
+        font-family: cursive;
+        color: rgb(78, 71, 71);
+        font-size: 0.3em;
+    }
+
+    img {
+        width: 3em;
+        border-radius: 100px;
+        height: 3em;
+        margin-top: 2px;
+    }
+
+    .foot a {
+        text-decoration: none;
+        color: azure;
+        font-size: 0.5em;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width:123px) {
+    #centre button a {
+        font-size: 0.5em;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: -1em;
+        align-items: center;
+        font-family: cursive;
+        color: rgb(78, 71, 71);
+        font-size: 0.2em;
+    }
+
+    h3 {
+        font-size: 0.3em;
+    }
+}
+
+@media only screen and (max-width:123px) {
+    #centre button {
+        font-size: 0.1em;
+    }
+
+    h1 {
         display: none;
+    }
+
+    h3 {
+        font-size: 5px;
+    }
+
+    .foot {
+        display: none;
+    }
+
+    img {
+        width: 1em;
+        border-radius: 100px;
+        height: 1em;
+        margin-top: 2px;
     }
 }
 #centre button a img {
