@@ -19,18 +19,26 @@
         <div id="centre">
             <div class="insta"><button><a href="https://www.instagram.com/i_yadavshivam/?hl=en" target="blank"><img
                             src="Images/insta logo.png"> Instagram</a></button></div>
-            <div class="tele"><button><a href="https://t.me/ydvshivam" target="blank"> <img src="Images/tele.webp" >
+            <div class="tele"><button><a href="https://t.me/ydvshivam" target="blank"> <img src="Images/tele.webp">
                         Telegram</a></button></div>
-            <div class="git"><button><a href="https://github.com/shivam-iitp"target="blank"> <img src="Images/git1.png"
-                        > Git-Hub</a></button></div>
+            <div class="git"><button><a href="https://github.com/shivam-iitp" target="blank"> <img
+                            src="Images/git1.png"> Git-Hub</a></button></div>
             <div class="linkedin"><button><a href="https://www.linkedin.com/in/shivamyadaviitp" target="blank"> <img
                             src="Images/linkedin1.png"> LinkedIn</a></button></div>
             <div class="fb"><button><a href="https://www.facebook.com/profile.php?id=100070773589136" target="blank">
                         <img src="Images/meta.png"> Facebook</a></button></div>
         </div>
-        <h3 class="foot"> <a href="#">|| My first Website ||</a></h3>
+        <h3 class="foot">!! Visiting on <span id="time"></span>!!</h3>
     </div>
-    
+
 </body>
+<script>
+    function displayTime() {
+        time = new Date();
+        console.log(time);
+        document.getElementById('time').innerHTML = time;
+    }
+    setInterval(displayTime, 1000)
+</script>
 
 </html>
