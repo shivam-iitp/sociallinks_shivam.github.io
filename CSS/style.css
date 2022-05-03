@@ -107,7 +107,7 @@ h3 {
 @media only screen and (max-width:369px) {
     h1 {
         text-align: center;
-        margin-top: -1em;
+        /* margin-top: -1em; */
         align-items: center;
         font-family: cursive;
         color: rgb(78, 71, 71);
@@ -124,7 +124,7 @@ h3 {
 
     h1 {
         text-align: center;
-        margin-top: -1em;
+        /* margin-top: -1em; */
         align-items: center;
         font-family: cursive;
         color: rgb(78, 71, 71);
@@ -144,7 +144,7 @@ h3 {
 
     h1 {
         text-align: center;
-        margin-top: -1em;
+        /* margin-top: -1em; */
         align-items: center;
         font-family: cursive;
         color: rgb(78, 71, 71);
@@ -155,7 +155,7 @@ h3 {
 @media only screen and (max-width:231px) {
     h1 {
         text-align: center;
-        margin-top: -1em;
+        /* margin-top: -1em; */
         align-items: center;
         font-family: cursive;
         color: rgb(78, 71, 71);
@@ -187,7 +187,7 @@ h3 {
 
     h1 {
         text-align: center;
-        margin-top: -1em;
+        /* margin-top: 0em; */
         align-items: center;
         font-family: cursive;
         color: rgb(78, 71, 71);
@@ -222,6 +222,10 @@ h3 {
         height: 1em;
         margin-top: 2px;
     }
+}
+#time{
+    font-weight: bold;
+    color: azure;
 }
 #centre button a img {
     width: 50px;
