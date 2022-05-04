@@ -6,6 +6,7 @@ body {
     margin-top: 0;
     background-color: rgb(0, 0, 0);
     padding: 2;
+    border:6px solid rgb(87, 27, 27);
 }
 
 h1 {
@@ -33,7 +34,7 @@ h1 {
     margin-top: 1.7em;
     margin-bottom: 1.2em;
     background-color: rgb(85, 83, 83);
-    transition-property: color;
+    border: 2px solid rgb(93, 103, 77);
 }
 
 .head {
