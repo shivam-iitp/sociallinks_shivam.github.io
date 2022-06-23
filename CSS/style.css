@@ -80,7 +80,7 @@ h3 {
 
 .foot a {
     text-decoration: none;
-    color: azure;
+    color: rgb(46, 217, 217);
 }
 
 @media only screen and (max-width:684px) {
